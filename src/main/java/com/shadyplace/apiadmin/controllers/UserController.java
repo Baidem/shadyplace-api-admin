@@ -19,6 +19,8 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin // debug angular
 @RequestMapping("/api/users")
 @RestController()
 @Tag(name = "User management", description = "Enables user CRUD")
